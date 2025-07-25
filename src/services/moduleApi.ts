@@ -1,7 +1,7 @@
 import { Module, ModuleContent } from '../types';
 
 // API base URL - can be configured via environment variables
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://134.209.158.172:3001';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3001';
 
 // API response interface matching backend format
 interface ApiResponse<T> {
